@@ -105,4 +105,5 @@ if __name__ == "__main__":
     print('best fitness:', gb)
     print('best x:', x)
     plotSemilogFitness(gbHistory, func.__class__.__name__)
+    plt.savefig("DSA1")
     plt.show()

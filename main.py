@@ -37,4 +37,5 @@ if __name__ == '__main__':
         plot(dsaRes[2], name)
         plt.legend(['PSO', 'DSA'])
         plt.savefig('./figures/{}.jpg'.format(name))
-        plt.show()
+        plt.close()
+#        plt.show()
